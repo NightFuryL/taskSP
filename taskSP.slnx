@@ -1,5 +1,4 @@
 <Solution>
-  <Project Path="CAPPAOT/CAPPAOT.csproj" Id="b14a2f5a-6888-44a8-879a-7b3fa1bd8f94" />
   <Project Path="taskAOTConsole/taskAOTConsole.csproj" Id="d9f8ccf0-08f9-4fc9-a228-1ede7819f2c8" />
   <Project Path="taskConsole/taskConsole.csproj" />
 </Solution>
