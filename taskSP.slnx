@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="taskAOTConsole/taskAOTConsole.csproj" Id="d9f8ccf0-08f9-4fc9-a228-1ede7819f2c8" />
   <Project Path="taskConsole/taskConsole.csproj" />
+  <Project Path="TaskLibrary/TaskLibrary.csproj" Id="44e15213-cf81-425a-8c62-4edf2e9c8ec8" />
 </Solution>
