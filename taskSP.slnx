@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="taskConsole/taskConsole.csproj" />
-  <Project Path="TaskLibrary/TaskLibrary.csproj" Id="44e15213-cf81-425a-8c62-4edf2e9c8ec8" />
+  <Project Path="TaskWinForms/TaskWinForms.csproj" Id="32da7d41-ad67-4742-bef5-bfa3ade3dfa4" />
 </Solution>
