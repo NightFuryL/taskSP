@@ -1,4 +1,4 @@
-﻿namespace TaskLibrary
+﻿namespace LibrarySP
 {
     public class Class1
     {
