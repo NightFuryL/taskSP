@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+
 namespace WinFormsAppCW
 {
     public partial class Form1 : Form
@@ -8,11 +10,12 @@ namespace WinFormsAppCW
         }
         private async void btnStartCPU_Click(object sender, EventArgs e)
         {
+            txtCPUResult.Text = "CPU bound task in progress...";
             Task<long> cputask = Task.Run(CPUBound);
 
             await cputask;
 
-            MessageBox.Show(cputask.Result.ToString());
+            txtCPUResult.Text = cputask.Result.ToString();
         }
         private long CPUBound()
         {
@@ -24,9 +27,11 @@ namespace WinFormsAppCW
             return sum;
         }
 
-        private void btnStartIO_Click(object sender, EventArgs e)
+        private async void btnStartIO_Click(object sender, EventArgs e)
         {
-
+            txtIOResult.Text = "IO bound task in progress...";
+            await Task.Delay(3500);
+            txtIOResult.Text = "IO bound task is completed";
         }
     }
 }
