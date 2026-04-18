@@ -1,5 +1,3 @@
 <Solution>
   <Project Path="ConsoleTask/ConsoleTask.csproj" Id="5a3dc893-32a0-497f-84b3-edef7b114683" />
-  <Project Path="LibraryTask/LibraryTask.csproj" Id="672d7f43-3d1e-45ba-b676-ad3466a2672c" />
-  <Project Path="WinFormsTask/WinFormsTask.csproj" Id="020083d3-6808-423a-b7ce-95817f65f3ab" />
 </Solution>
